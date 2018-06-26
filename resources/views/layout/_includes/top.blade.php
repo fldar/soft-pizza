@@ -11,7 +11,7 @@
       crossorigin="anonymous">
 <link rel="stylesheet" href="{{asset("css/estilo.css")}}">
 <link rel="stylesheet" href="{{asset("sweetalert2/dist/sweetalert2.min.css")}}">
-<link rel="icon" href="{{asset("bootstrap/assets/img/icon.png")}}">
+<link rel="icon" href="{{asset("/bootstrap/assets/img/icon.png")}}">
 
 </head>
 
