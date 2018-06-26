@@ -3,7 +3,7 @@
          <div class="row">
            <div class="col-sm-3">
               <a href="index.html">
-               <img class="img-responsive img" src="{{asset("/bootstrap/assets/img/entrego_logop.png")}}">
+               <img class="img-responsive img" src="{{asset("/bootstrap/assets/img/entrego_logoP.png")}}">
              </a>
            </div>
 

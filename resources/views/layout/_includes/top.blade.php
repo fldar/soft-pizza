@@ -24,7 +24,7 @@
 
            <!-- LOGO -->
            <a href="index.html">
-             <img class="img-responsive img" src="{{asset("/bootstrap/assets/img/entrego_logop.png")}}">
+             <img class="img-responsive img" src="{{asset("/bootstrap/assets/img/entrego_logoP.png")}}">
            </a>
 
            <!-- BOTAO TOGGLE -->
