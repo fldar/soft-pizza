@@ -1,0 +1,378 @@
+
+/*
+
+	@autor Renee Shiva
+	@versao 1.0
+
+*/
+
+body {
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: url("/bootstrap/assets/img/fundo2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-top: 95px;
+}
+
+/* ============================================================================================ layout */
+
+/* -------------------------------------------------------------- barra de navegação -- */
+
+.navbar-light .navbar-toggler {
+	background: rgba(255,226,36, 1);
+	font-weight: 990;
+}
+
+.img{
+	padding: 5px 0;
+	height: 70px;
+}
+
+.cabecalho{
+	color: #fff;
+	box-shadow: 0 3px 10px rgba(225, 0, 0, 0.8);
+	/*border-bottom: 1.5px solid rgba(94, 97, 11, 0.8);*/
+	background: rgba(225, 0, 0, 0.95);
+	transition: all 0.7s;
+}
+
+.cabecalho:hover{
+	background: rgba(255, 0, 0, .9);
+	transition: all 0.7s;
+}
+
+/* -------------------------------------------------------------- botões -- */
+
+.botao-toggle{
+	padding: 10px 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	border: 1px solid rgba(0, 0, 0, 0.001);
+	margin: 5px;
+	padding: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 2px;
+   	transition: all 0.5s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+	border-bottom: 1px solid yellow;
+   	transition: all 0.5s;
+}
+
+.finalizado{
+	height: 40px;
+	background: red;
+	border: 1px solid red;
+	color: #fff;
+	margin-top: -15px;
+}
+
+.finalizado:hover{
+	background: rgba(255, 80, 1, 1);
+}
+
+.row-botoes{
+	margin: 20px 0;
+}
+
+.btn-estoque{
+	padding-top: 20px
+	margin: 65px 0;
+	margin: 5px 0;
+	width: 90%;
+	padding: 20px;
+}
+
+.btn-pedido{
+	padding: 20px;
+}
+
+
+
+/* -------------------------------------------------------------- conteudo -- */
+
+.centralizar-conteudo{
+	display: flex;
+	justify-content: space-around;
+}
+
+.padding-container{
+	padding-bottom: 20px;
+}
+
+article{
+	background: rgba(255, 250, 35, 0.7);
+    border-radius: 3px;
+}
+
+.article-center{
+	text-align: center;
+}
+
+.titulo-pagina{
+	margin: 0 0 -10px 0;
+	padding: 10px;
+	font-size: 40px;
+	text-align: center;
+
+}
+
+fieldset{
+	background: rgba(255, 250, 35, 0.9);
+	margin: 0 20px;
+	padding-bottom: 10px;
+	margin-top: 5px;
+	border-radius: 2px;
+}
+
+.fieldset-slim{
+	height: 102px;
+}
+
+.sem-borda{
+	border: none;
+}
+
+.block > p{
+	display: inline-block;
+}
+
+.block{
+	padding: 10px 10px 15px 10px;
+}
+
+.recuperar-senha{
+	display: inline-block;
+	padding-top: 5px;
+}
+
+legend{
+	text-align: left;
+	margin-left: 30px;
+	padding-left: 10px;
+	letter-spacing: 7px;
+	font-weight: 1000;
+	border-left: 10px solid #848484;
+	width: 90%;
+}
+
+.informacoes{
+	padding: 10px 0;
+}
+
+.finalizado-box{
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 10px;
+}
+
+.finalizado-sub-box{
+	color: #fff;
+	width: 400px;
+	height: 50px;
+	padding-top: 12px;
+	border-radius: 5px;
+	background: #007AFF;
+	margin: 0 10px;
+}
+
+.caixa-coluna{
+	display: flex;
+	justify-content: space-around;
+}
+
+.caixa{
+	border: 1px solid red;
+	width: 100%;
+	height: 95%;
+	margin: 10px;
+	background: #424242;
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+}
+
+.texto-caixa{
+	margin: 0 auto;
+	width: 80%;
+	padding: 20px 0;
+	border-bottom: 1px solid #fff;
+}
+
+.quantidade{
+	font-size: 200%;
+}
+
+.tela-texto{
+	padding: -10px 20px;
+	text-align: justify;
+}
+
+form{
+	padding: 20px;
+}
+
+label{
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.form-control{
+	resize: none;
+}
+
+.sabor{
+	padding: 0 30px;
+}
+
+
+.total{
+	padding: 30px 20px 30px 15px;
+	border-left: 40px solid grey;
+	margin-bottom: 30px;
+}
+
+.pagamento{
+	padding: 20px;
+}
+
+.botao-pag{
+	padding: 10px;
+}
+
+.pag{
+	padding: 18px;
+	border: none;
+	letter-spacing: 10px;
+	font-size: 30px;
+}
+
+.pag-verde{
+	background: #32CD32;
+}
+
+.pag-verde:hover{
+	background: #6B8E23;
+}
+
+.pag-roxo{
+	background: #000099;
+}
+
+.pag-roxo:hover{
+	background: #000066;
+}
+
+.linha-vitrine{
+	padding: 10px 20px;
+}
+
+.card{
+	min-width: 100px;
+	background: rgba(225, 0, 0, 0.1);
+	transition: 1s;
+}
+
+.card:hover{
+	background: rgba(225, 0, 0, 0.30);
+	transition: 1s;
+}
+
+.h3-pedido{
+	letter-spacing: 6px;
+	font-size: 30px;
+	font-weight: 900;
+	text-align: left;
+}
+
+.form-group-pedido{
+	padding-bottom: 10px;
+	border-bottom: 0.1px solid #848484;
+}
+
+.input-group-text{
+	background: #fff;
+	margin: 5px 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.rescue-pass{
+	letter-spacing: 5px;
+	font-weight: 900;
+	font-size: 30px;
+}
+
+/* -------------------------------------------------------------- rodape -- */
+
+footer{
+	position: relative;
+	background: rgba(0, 0, 0, .95);
+	color: white;
+	padding-top: 30px;
+}
+.titulo-rodape{
+	padding-top: 10px;
+}
+
+.nav-footer{
+	color: #fff;
+	text-align: left;
+}
+
+.nav-footer:hover{
+	color: #819FF7;
+	text-decoration: none;
+}
+
+.direitos{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.ul-rede-social{
+	float: right;
+}
+
+.rede-social{
+	padding: 0 10px;
+}
+
+/* ============================================================================================ tipografia */
+
+.fonte-maior{
+	font-size: 18px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.links h4{
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #BDBDBD;
+}
+
+/* ============================================================================================ Media queries */
+
+
+
+@media screen and (min-width: 1200px){
+	body{
+		background-size: 100%;
+	}
+}
+
+
+@media screen and (max-width: 700px){
+	.pag{
+	padding: 18px;
+	border: none;
+	letter-spacing: 6px;
+	font-size: 20px;
+}
+}
