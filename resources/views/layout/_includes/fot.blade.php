@@ -27,9 +27,9 @@
 
            <div class="col-sm-3">
              <ul class="nav ul-rede-social">
-               <li class="rede-social"><a href="#"><img src="{{asset("bootstrap\assets\img\twitter.png")}}"></a></li>
-               <li class="rede-social"><a href="#"><img src="{{asset("bootstrap\assets\img\facebook.png")}}"></a></li>
-               <li class="rede-social"><a href="#"><img src="{{asset("(bootstrap\assets\img\instagram.png")}}"></a></li>
+               <li class="rede-social"><a href="#"><img src="{{asset("bootstrap/ssets/img/twitter.png")}}"></a></li>
+               <li class="rede-social"><a href="#"><img src="{{asset("bootstrap/assets/img/facebook.png")}}"></a></li>
+               <li class="rede-social"><a href="#"><img src="{{asset("(bootstrap/assets/img/instagram.png")}}"></a></li>
              </ul>
            </div>
          </div><!-- row -->
